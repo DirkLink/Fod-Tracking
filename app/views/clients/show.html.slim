@@ -1,0 +1,68 @@
+
+  table class="table table-striped table-bordered table-hover"
+    caption = @client.first_name + " " + @client.last_name
+    tr
+      th Type
+      th Measurement
+      th Finish
+      th Notes
+    tr.height
+      td Height
+      td = @client.finish.height 
+      td = @client.measurement.height 
+      td = @client.note.height 
+    tr.weight
+      td Weight
+      td = @client.finish.weight 
+      td = @client.measurement.weight 
+      td = @client.note.weight 
+    tr.shoulder
+      td Shoulder
+      td = @client.finish.shoulder 
+      td = @client.measurement.shoulder 
+      td = @client.note.shoulder 
+    tr.chest
+      td Chest
+      td = @client.finish.chest 
+      td = @client.measurement.chest 
+      td = @client.note.chest 
+    tr.stomach
+      td Stomach
+      td = @client.finish.stomach 
+      td = @client.measurement.stomach 
+      td = @client.note.stomach 
+    tr.bicep
+      td Bicep
+      td = @client.finish.bicep 
+      td = @client.measurement.bicep 
+      td = @client.note.bicep 
+    tr.arm_length
+      td Arm Length
+      td = @client.finish.arm_length 
+      td = @client.measurement.arm_length 
+      td = @client.note.arm_length 
+    tr.sweep
+      td Sweep
+      td = @client.finish.sweep 
+      td = @client.measurement.sweep 
+      td = @client.note.sweep 
+    tr.waist
+      td Waist
+      td = @client.finish.waist 
+      td = @client.measurement.waist 
+      td = @client.note.waist 
+    tr.thigh
+      td Thigh
+      td = @client.finish.thigh 
+      td = @client.measurement.thigh 
+      td = @client.note.thigh 
+    tr.calf
+      td Calf
+      td = @client.finish.calf 
+      td = @client.measurement.calf 
+      td = @client.note.calf 
+    tr.opening
+      td Opening
+      td = @client.finish.opening 
+      td = @client.measurement.opening 
+      td = @client.note.opening
